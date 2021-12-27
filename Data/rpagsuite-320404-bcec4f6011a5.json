@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rpagsuite-320404",
+  "private_key_id": "bcec4f6011a5089eebc420cc80462eefd36ff6c0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCTJTaxixC9DHe9\nWMXIEA2WE1avuELMIjdxHJk748iB5J/M9Ln7ms1/gxp9uQjvaqDokJ49AjqWzWH4\nOivrqTG2L40OHmpW60/KUv4xDXr0EG2QVVTcxL2XPdNEw4cMlpA9OnNhRMCbTktH\nR+7PUM4EcmVaNuICstiVP6qq22vgoovS8KflE32RPG0QSv6XlA5sUzoEgCqh7Il3\nnQfTbEgDjb+Kb6UIeaYu6lYdcLkjfcSmRr3+z4/1PE6rymWrlkZ5BNyChJmf1OX+\nrgGFLo1avTPiPL2I0kjf3WjtUt91sTHuZuDCMe8ncWKPAGrzTpUwyLS/jUwnpqza\n+amfSXZzAgMBAAECgf8eVpkGh7v25XnKsdDd9Ieg71Ctb9XmmdmGmjJiEH6q+4OH\n3/iO8uyjdAt8qNZ8sxAhD8aFUz47rPuRPaTbukmQwRu4UxKk73Af7gfIx24Mzghk\n20lsUZN3m3Q2ow6voAJ2WouySr1ris9IfvB7SJ0bQnra0Pub69/dVSzmOegaaGcE\nZqLRzvG/7qoUiljnLuXQuDSFCJA/Rl8sDUNCc6ylCJuMBySf5/ydnSnVtlSFzpdr\n98MLBXfkBz1tzeFkrZoQUyMlp3aVcE/iwnsv2wdpBw64ViZdjMIfKXTKGI6Xijgm\n98Vw6Mjkgh6UgA2Qa+sQHWuOeWT4qLlpPj9b/nECgYEAyh+ZFeotxQOyoGafpKz9\nVZuL8cRuNJmUFSU0EWfkKfqsT6ZLJR/1ZR/VXwUDTYPqquphXKveHLEccJOvik4P\niWbqS9yw3qp+TTGuZi7aIGB9cU3cBfZVW9TqLqouGC/PW3MhI/AnMpWlXu0VNU6n\nu4bySXdXLQIpbap/QDWLCZUCgYEAul4MfpCSGFLhn3mmv03eHqytdNl7oIh/NJRB\nvXM9/9VeGtWsVEF6HnmcktzuhKHckDCJmmr6x2i6ObcZkTwHmxtRDKwcQ0s3rqJD\n1jgEgxhXN8ipQXPkSU+o8EVQ243z1XG3+vFTBn4Hof3OaaCpyFdvs06g2beTY4p3\n2aCqTecCgYBGT8OjOfl+BZFH9yslz/+4ngmKqvhjV+GJkY2RWICokckLVB/j5EAr\nU22YRlglyPQDTNFduXPkqz/ncZipFgqVk7WBel4Ut16EX/n5FedPSAGbPqiBcnWz\nIlfsr8qlI0yQ1XX72HjqQeBrKzIrfxceRw1VvSwYPh5HRf5KSdX6GQKBgQCAeD6S\nrKQZImEn5ts8ergIWy6DIzymkBFoNF8Q8rUle3cQdoUB29UL1vdJAgVl5pI9z0e7\n680N0zK0gHSeekwf7vezDZ26AcrTlkW/EQSDPi85ZBjQ5svSgZhKcO3pO3R/iZGy\n6dI64nvufiBhDgCb+zIj36rgCj0O3C/8FFXxtwKBgQC8U3UoDLecqmJwrrQPnwqd\nOcAiNbTJH6Dqg9LKsL0LTSNzMR3lrhKMKZCc0GKyMfXhDSZE6ABDHRP0AzpBIH0L\n+vsChGRFVng3n9Up4BlOZ/3hPPDcipgvabEeIEAgNtw/xZqRrcWyNjw+locgO39X\nAFuelXIzF2DJo5GFsicFhw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "rpa-pagos@rpagsuite-320404.iam.gserviceaccount.com",
+  "client_id": "110828693650564802976",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rpa-pagos%40rpagsuite-320404.iam.gserviceaccount.com"
+}
