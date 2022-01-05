@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1474,3272</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1240,3272</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Quiter_Seleccion_Caja_Linea_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="39">
@@ -89,7 +89,6 @@
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="Modulo para seleccioar las refrencias de pago en línea" DisplayName="Quiter_Seleccion_Caja_Linea" sap:VirtualizedContainerService.HintSize="1075,3207" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -833,7 +832,7 @@
                       <InArgument x:TypeArguments="x:String">[RowLinea.Item(4).ToString]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <ui:IsMatch BuilderPattern="[P|p]ago [P|p]lataforma [W|w]eb" DisplayName="Es una coincidencia" sap:VirtualizedContainerService.HintSize="654,59" sap2010:WorkflowViewState.IdRef="IsMatch_1" Input="[ConceptoPagoLinea]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;[P|p]ago [P|p]lataforma [W|w]eb&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactamente&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="[P|p]ago [P|p]lataforma [W|w]eb" RegexOption="IgnoreCase" Result="[ConceptoValido]" />
+                  <ui:IsMatch BuilderPattern="(P|p)ago (P|p)lataforma (W|w)eb" DisplayName="Es una coincidencia" sap:VirtualizedContainerService.HintSize="654,59" sap2010:WorkflowViewState.IdRef="IsMatch_1" Input="[ConceptoPagoLinea]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;(P|p)ago (P|p)lataforma (W|w)eb&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactamente&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="(P|p)ago (P|p)lataforma (W|w)eb" RegexOption="IgnoreCase" Result="[ConceptoValido]" />
                   <WriteLine DisplayName="Escribir Log ConceptoPagoLinea" sap:VirtualizedContainerService.HintSize="654,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[ConceptoPagoLinea]" />
                   <Flowchart DisplayName="Selección y grabado" sap:VirtualizedContainerService.HintSize="654,856" sap2010:WorkflowViewState.IdRef="Flowchart_1">
                     <sap:WorkflowViewStateService.ViewState>
@@ -850,10 +849,7 @@
                     <Flowchart.StartNode>
                       <x:Reference>__ReferenceID6</x:Reference>
                     </Flowchart.StartNode>
-                    <FlowDecision x:Name="__ReferenceID6" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
-                      <FlowDecision.Condition>
-                        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="ConceptoValido" />
-                      </FlowDecision.Condition>
+                    <FlowDecision x:Name="__ReferenceID6" Condition="[ConceptoValido]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -951,7 +947,7 @@
                                               <av:Size x:Key="ShapeSize">200,51</av:Size>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="0a505ee1-15b2-4d95-bbb1-f62aaa9566c4" DisplayName="CV Ventana pagos linea" sap:VirtualizedContainerService.HintSize="434,504" sap2010:WorkflowViewState.IdRef="CVScope_7" Version="V2">
+                                          <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="0a505ee1-15b2-4d95-bbb1-f62aaa9566c4" DisplayName="CV Ventana pagos linea" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CVScope_7" Version="V2">
                                             <p:CVScope.Body>
                                               <ActivityAction x:TypeArguments="x:Object">
                                                 <ActivityAction.Argument>
