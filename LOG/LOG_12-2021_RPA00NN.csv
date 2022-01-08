@@ -1,0 +1,148 @@
+20/12/2021,01:18:03,,Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter,Failed,"System exception. Retry: 1. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+The closest matches found are:
+[48%] <wnd app='quiterweb.exe' cls='TfrmError' title='Aviso de Quiter Auto'/>
+[47%] <wnd app='quiterweb.exe' cls='TApplication' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+[44%] <wnd app='quiterweb.exe' cls='Internet Explorer_Hidden'/> at Source: Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter"
+20/12/2021,01:20:16,,Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter,Failed,"System exception. Retry: 2. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+The closest matches found are:
+[48%] <wnd app='quiterweb.exe' cls='TfrmError' title='Aviso de Quiter Auto'/>
+[47%] <wnd app='quiterweb.exe' cls='TApplication' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+[44%] <wnd app='quiterweb.exe' cls='Internet Explorer_Hidden'/> at Source: Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter"
+20/12/2021,01:21:34,,Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter,Failed,"System exception. Retry: 3. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+The closest matches found are:
+[67%] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 130 1414]   [GESTION DE CAJA]'/>
+[47%] <wnd app='quiterweb.exe' cls='TApplication' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+[44%] <wnd app='quiterweb.exe' cls='Internet Explorer_Hidden'/> at Source: Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter"
+20/12/2021,01:22:50,,Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter,Failed,"System exception. Retry: 0. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+The closest matches found are:
+[67%] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 130 1414]   [GESTION DE CAJA]'/>
+[47%] <wnd app='quiterweb.exe' cls='TApplication' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+[44%] <wnd app='quiterweb.exe' cls='Internet Explorer_Hidden'/> at Source: Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter"
+20/12/2021,01:24:06,,Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter,Failed,"System exception. Retry: 1. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+The closest matches found are:
+[67%] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 130 1414]   [GESTION DE CAJA]'/>
+[47%] <wnd app='quiterweb.exe' cls='TApplication' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+[44%] <wnd app='quiterweb.exe' cls='Internet Explorer_Hidden'/> at Source: Invoke Quiter_Seleccion_Caja_CV workflow: CV Ventana Cajas Quiter"
+21/12/2021,04:47:17,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Tabla Refrencias buscar capacidad,Failed,"System exception. Retry: 1. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release *'/>
+[2] <wnd aaname='Área de trabajo' cls='MDIClient'/>
+[3] <wnd cls='TFormQuiter' title='Release *]   [GESTION DE CAJA'/>
+[4] <wnd cls='TTabSheet' title='TabSheet2'/>
+[5] <wnd cls='TGENGrid' idx='1'/>
+[6] <ctrl role='client'/>
+
+Search failed at selector tag:
+[5] <wnd cls='TGENGrid' idx='1'/>
+
+The closest matches found are:
+[56%] <wnd cls='TGENBitBtn'/>
+[56%] <wnd cls='TGENBitBtn'/>
+[56%] <wnd cls='TGENBitBtn'/>
+[50%] <wnd cls='TPageControl'/>
+[24%] <wnd cls='TTabSheet'/> at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Tabla Refrencias buscar capacidad"
+21/12/2021,04:50:51,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Tabla Refrencias buscar capacidad,Failed,"System exception. Retry: 2. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release *'/>
+[2] <wnd aaname='Área de trabajo' cls='MDIClient'/>
+[3] <wnd cls='TFormQuiter' title='Release *]   [GESTION DE CAJA'/>
+[4] <wnd cls='TTabSheet' title='TabSheet2'/>
+[5] <wnd cls='TGENGrid' idx='1'/>
+[6] <ctrl role='client'/>
+
+Search failed at selector tag:
+[5] <wnd cls='TGENGrid' idx='1'/>
+
+The closest matches found are:
+[56%] <wnd cls='TGENBitBtn'/>
+[56%] <wnd cls='TGENBitBtn'/>
+[56%] <wnd cls='TGENBitBtn'/>
+[50%] <wnd cls='TPageControl'/>
+[24%] <wnd cls='TTabSheet'/> at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Tabla Refrencias buscar capacidad"
+21/12/2021,04:54:17,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Tabla Refrencias buscar capacidad,Failed,"System exception. Retry: 3. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release *'/>
+[2] <wnd aaname='Área de trabajo' cls='MDIClient'/>
+[3] <wnd cls='TFormQuiter' title='Release *]   [GESTION DE CAJA'/>
+[4] <wnd cls='TTabSheet' title='TabSheet2'/>
+[5] <wnd cls='TGENGrid' idx='1'/>
+[6] <ctrl role='client'/>
+
+Search failed at selector tag:
+[5] <wnd cls='TGENGrid' idx='1'/>
+
+The closest matches found are:
+[56%] <wnd cls='TGENBitBtn'/>
+[56%] <wnd cls='TGENBitBtn'/>
+[56%] <wnd cls='TGENBitBtn'/>
+[50%] <wnd cls='TPageControl'/>
+[24%] <wnd cls='TTabSheet'/> at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Tabla Refrencias buscar capacidad"
+21/12/2021,05:18:03,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias,Failed,System exception. Retry: 1. No se puede encontrar la columna 4. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias
+21/12/2021,05:21:06,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias,Failed,System exception. Retry: 2. No se puede encontrar la columna 4. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias
+21/12/2021,05:24:05,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias,Failed,System exception. Retry: 3. No se puede encontrar la columna 4. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias
+21/12/2021,05:29:29,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias,Failed,System exception. Retry: 1. No se puede encontrar la columna 4. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias
+21/12/2021,05:32:33,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias,Failed,System exception. Retry: 2. No se puede encontrar la columna 4. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: Filtra filas vacias
+22/12/2021,11:35:45,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+22/12/2021,11:38:18,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+22/12/2021,11:41:13,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia,Failed,System exception. Retry: 1. No se encuentra el elemento. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia
+22/12/2021,11:44:55,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia,Failed,System exception. Retry: 2. No se encuentra el elemento. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia
+22/12/2021,11:48:31,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia,Failed,System exception. Retry: 3. No se encuentra el elemento. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia
+22/12/2021,11:52:12,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia,Failed,System exception. Retry: 0. No se encuentra el elemento. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia
+22/12/2021,11:53:41,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+22/12/2021,11:56:12,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+22/12/2021,11:59:02,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia,Failed,System exception. Retry: 1. No se encuentra el elemento. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia
+22/12/2021,12:02:41,,Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia,Failed,System exception. Retry: 2. No se encuentra el elemento. at Source: Invoke Quiter_Seleccion_Referencias_CV workflow: Invoke Quiter_Validacion_Referencias workflow: CV Clic referencia
+22/12/2021,12:04:38,,Init,Error,System exception at initialization: Action failed to execute as expected. at Source: Invoke Quiter_Init workflow: Invoke Quiter_Login_CV workflow: Retry Scope Inicio de Sesión
+22/12/2021,05:18:06,,Aviso Nose actualizo asiento,Error,Business rule exception.Aviso Nose actualizo asiento
+22/12/2021,05:20:44,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+22/12/2021,05:23:13,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+22/12/2021,05:23:53,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+22/12/2021,05:24:33,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+22/12/2021,05:25:04,,Invoke Quiter_Pago_Linea workflow: Invoke Quiter_Seleccion_Caja _Linea workflow: CV Ventana Cajas Quiter,Failed,"System exception. Retry: 1. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 120 1414]   *'/>
+
+The closest matches found are:
+[67%] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV) - [Release 130 1414]   [GESTION DE CAJA]'/>
+[47%] <wnd app='quiterweb.exe' cls='TApplication' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+[44%] <wnd app='quiterweb.exe' cls='Internet Explorer_Hidden'/> at Source: Invoke Quiter_Pago_Linea workflow: Invoke Quiter_Seleccion_Caja _Linea workflow: CV Ventana Cajas Quiter"
+23/12/2021,04:28:38,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+24/12/2021,12:48:13,,No coinciden Importes,Error,Business rule exception.No coinciden Importes
+24/12/2021,12:55:40,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+27/12/2021,03:47:46,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+27/12/2021,04:00:51,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+27/12/2021,04:23:52,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+27/12/2021,04:27:38,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+27/12/2021,04:38:57,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+27/12/2021,04:43:20,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+28/12/2021,04:35:14,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+28/12/2021,04:37:47,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+28/12/2021,04:40:26,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+28/12/2021,04:41:06,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+28/12/2021,04:41:46,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+28/12/2021,04:42:26,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+28/12/2021,04:46:39,,Caja Cerrada,Error,Business rule exception.Caja Cerrada

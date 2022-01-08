@@ -1,0 +1,49 @@
+22/07/2021,01:18:43,,Invoke Open Quiter workflow: Invoke Quiter_Seleccion_Caja workflow: Attach Window 'quiterweb.exe Quiter',Failed,System exception. Retry: 1. No open windows found for 'quiterweb.exe'. Please check if the application is running. at Source: Invoke Open Quiter workflow: Invoke Quiter_Seleccion_Caja workflow: Attach Window 'quiterweb.exe Quiter'
+23/07/2021,12:29:50,,Invoke Open Quiter workflow: Invoke Quiter_Seleccion_Caja workflow: Click 'A  quiter://SCR.CONTA.C...',Failed,"System exception. Retry: 1. Could not find the UI element corresponding to this selector:
+<uia automationid='menu' role='lista'/>
+<uia idx='1' role='lista'/>
+<uia name='Gestión de caja' role='texto'/>
+ at Source: Invoke Open Quiter workflow: Invoke Quiter_Seleccion_Caja workflow: Click 'A  quiter://SCR.CONTA.C...'"
+27/07/2021,04:24:39,,Invoke Open Quiter workflow: Invoke Quiter_Seleccion_Caja workflow: Ventana Quiter,Failed,"System exception. Retry: 1. Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+The closest matches found are:
+[70%] <wnd app='quiterweb.exe' cls='TfrmConectar' title='Conexión al sistema Quiter Auto'/>
+[65%] <wnd app='quiterweb.exe' cls='TApplication' title='Quiter Auto Web'/> at Source: Invoke Open Quiter workflow: Invoke Quiter_Seleccion_Caja workflow: Ventana Quiter"
+27/07/2021,05:27:56,,Invoke Quiter_Seleccion_Caja workflow: Aumentar Contador 1,Failed,"System exception. Retry: 1. This location is marked as const, so its value cannot be modified. at Source: Invoke Quiter_Seleccion_Caja workflow: Aumentar Contador 1"
+27/07/2021,05:29:10,,Invoke Quiter_Seleccion_Caja workflow: Aumentar Contador 1,Failed,"System exception. Retry: 1. This location is marked as const, so its value cannot be modified. at Source: Invoke Quiter_Seleccion_Caja workflow: Aumentar Contador 1"
+27/07/2021,05:44:30,,Init,Error,System exception at initialization: Action failed to execute as expected. at Source: Invoke Quiter_Init workflow: Invoke Quiter_Login workflow: Retry Scope Inicio de Sesión
+27/07/2021,05:48:49,,Invoke Quiter_Seleccion_Caja workflow: Inicializar variable en 0,Failed,"System exception. Retry: 1. This location is marked as const, so its value cannot be modified. at Source: Invoke Quiter_Seleccion_Caja workflow: Inicializar variable en 0"
+27/07/2021,05:51:17,,Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero,Failed,"System exception. Retry: 1. The target Element was not specified for this activity. You should set its Target property or use this activity inside of a scope activity (Attach Browser, Open Browser, Open Application, Attach Window, Get Active Window, Element Scope activities). at Source: Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero"
+27/07/2021,05:56:22,,Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero,Failed,"System exception. Retry: 1. The target Element was not specified for this activity. You should set its Target property or use this activity inside of a scope activity (Attach Browser, Open Browser, Open Application, Attach Window, Get Active Window, Element Scope activities). at Source: Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero"
+27/07/2021,06:00:27,,Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero,Failed,"System exception. Retry: 1. The target Element was not specified for this activity. You should set its Target property or use this activity inside of a scope activity (Attach Browser, Open Browser, Open Application, Attach Window, Get Active Window, Element Scope activities). at Source: Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero"
+27/07/2021,06:03:37,,Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero,Failed,"System exception. Retry: 1. The target Element was not specified for this activity. You should set its Target property or use this activity inside of a scope activity (Attach Browser, Open Browser, Open Application, Attach Window, Get Active Window, Element Scope activities). at Source: Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero"
+27/07/2021,07:46:01,,Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero,Failed,"System exception. Retry: 1. The target Element was not specified for this activity. You should set its Target property or use this activity inside of a scope activity (Attach Browser, Open Browser, Open Application, Attach Window, Get Active Window, Element Scope activities). at Source: Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero"
+27/07/2021,07:51:02,,Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero,Failed,"System exception. Retry: 2. The target Element was not specified for this activity. You should set its Target property or use this activity inside of a scope activity (Attach Browser, Open Browser, Open Application, Attach Window, Get Active Window, Element Scope activities). at Source: Invoke Quiter_Seleccion_Caja workflow: Ingresar Cajero"
+29/07/2021,12:33:38,,Init,Error,"System exception at initialization: Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+The closest matches found are:
+[44%] <wnd app='quiterweb.exe' cls='#32770' title='Error Universe nº 39134'/> at Source: Invoke Quiter_Init workflow: Invoke Quiter_Seleccion_Caja workflow: Ventana Quiter"
+29/07/2021,12:36:06,,Init,Error,"System exception at initialization: Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+The closest matches found are:
+[44%] <wnd app='quiterweb.exe' cls='#32770' title='Error Universe nº 39134'/> at Source: Invoke Quiter_Init workflow: Invoke Quiter_Seleccion_Caja workflow: Ventana Quiter"
+30/07/2021,05:45:45,,Init,Error,"System exception at initialization: Could not find the UI element corresponding to this selector:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+Search failed at selector tag:
+[1] <wnd app='quiterweb.exe' cls='TfrmPrincipal' title='Quiter Auto Web (quiter.autocom.mx - UV)'/>
+
+The closest matches found are:
+[44%] <wnd app='quiterweb.exe' cls='#32770' title='Error Universe nº 80011'/> at Source: Invoke Quiter_Init workflow: Invoke Quiter_Seleccion_Caja workflow: Invoke Quiter_Seleccion_Gestion_Caja workflow: Ventana inicio Quiter"

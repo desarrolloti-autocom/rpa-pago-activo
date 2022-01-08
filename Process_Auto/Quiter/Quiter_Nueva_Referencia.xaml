@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>956,1007</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>642,1005</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Quiter_Nueva_Referencia_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="72">
@@ -92,10 +92,9 @@
       <AssemblyReference>UiPath.GSuite.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Extrae la ruta donde se alojan los archivos temporales y obtiene el ultimo pdf descargado, para tomar el numero de referencia generado por Quiter." DisplayName="Quiter_Nueva_Referencia" sap:VirtualizedContainerService.HintSize="376,942" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Extrae la ruta donde se alojan los archivos temporales y obtiene el ultimo pdf descargado, para tomar el numero de referencia generado por Quiter." DisplayName="Quiter_Nueva_Referencia" sap:VirtualizedContainerService.HintSize="376,940" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="RutaTemporal" />
       <Variable x:TypeArguments="x:String" Name="RutaArchivo" />
@@ -123,7 +122,7 @@
         <InArgument x:TypeArguments="x:String">[String.Join("parameter",Directory.GetFiles(RutaTemporal,"*.pdf").OrderByDescending(Function(d) New FileInfo(d).CreationTime).Take(1))]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:ReadPDFWithOCR DegreeOfParallelism="-1" DisplayName="Leer último archivo descargado" FileName="[RutaArchivo]" sap:VirtualizedContainerService.HintSize="334,188" sap2010:WorkflowViewState.IdRef="ReadPDFWithOCR_1" ImageDpi="150" Range="All" Text="[TextoArchivo]">
+    <ui:ReadPDFWithOCR DegreeOfParallelism="-1" DisplayName="Leer último archivo descargado en formato PDF" FileName="[RutaArchivo]" sap:VirtualizedContainerService.HintSize="334,188" sap2010:WorkflowViewState.IdRef="ReadPDFWithOCR_1" ImageDpi="150" Range="All" Text="[TextoArchivo]">
       <ui:ReadPDFWithOCR.OCREngine>
         <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
           <ActivityFunc.Argument>
@@ -142,6 +141,6 @@
       </Assign.Value>
     </Assign>
     <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Terminar Procesos Chrome" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Número de referencia: &quot;+out_NumeroReferencia]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Número de referencia: &quot;+out_NumeroReferencia]" />
   </Sequence>
 </Activity>

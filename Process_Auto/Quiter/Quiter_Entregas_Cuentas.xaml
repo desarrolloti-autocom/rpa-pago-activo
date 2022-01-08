@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,2154</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>642,2252</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Quiter_Entregas_Cuentas_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -78,14 +78,14 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="AUT.001.014 - Verificar Pago&#xA;AUT.001.015 - Guardar Pagos&#xA;Modulo para ingresar los datos adicionales del pago." DisplayName="Quiter_Entregas_Cuentas" sap:VirtualizedContainerService.HintSize="476,2089" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="AUT.001.014 - Verificar Pago&#xA;AUT.001.015 - Guardar Pagos&#xA;Modulo para ingresar los datos adicionales del pago." DisplayName="Quiter_Entregas_Cuentas" sap:VirtualizedContainerService.HintSize="476,2187" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="35bbb54d-8056-467c-a88f-50ce56a80a77" DisplayName="CV Ventana Datos adicionales entregas a cuenta" sap:VirtualizedContainerService.HintSize="434,852" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V2">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="35bbb54d-8056-467c-a88f-50ce56a80a77" DisplayName="CV Ventana Datos adicionales entregas a cuenta" sap:VirtualizedContainerService.HintSize="434,950" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V2">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -128,6 +128,7 @@
                 </ui:Target>
               </p:CvTypeIntoWithDescriptor.Target>
             </p:CvTypeIntoWithDescriptor>
+            <ui:Comment DisplayName="Comentario" sap:VirtualizedContainerService.HintSize="400,74" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Se  manejan puntos de anclaje para mejorar la presición del bot" />
             <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Cell (237,153,221,18)&quot; +&#xA;&quot;Anchor: Text 'Descripcion' (240,139,62,15)&quot; +&#xA;&quot;Anchor: Cell (458,134,81,19)&quot; +&#xA;&quot;Anchor: Cell (179,134,58,19)&quot; +&#xA;&quot;Anchor: Cell (103,134,76,19)&quot; +&#xA;&quot;Anchor: Cell (237,134,221,19)&quot; +&#xA;&quot;Anchor: Text 'Referencia' (43,87,57,12)&quot; +&#xA;&quot;Anchor: InputBox (105,82,74,21)&quot; +&#xA;&quot;Anchor: Icon (335,51,14,20)&quot; +&#xA;&quot;Anchor: Text 'Metodo pago' (26,218,74,15)&quot; +&#xA;&quot;Anchor: Cell (539,134,81,19)&quot; +&#xA;&quot;Anchor: Text 'Info indicadores de tiempo' (353,53,142,14)&quot; +&#xA;&quot;Anchor: Text 'Tipo alerta' (563,403,57,14)&quot; +&#xA;&quot;Anchor: Icon (289,51,20,19)&quot; +&#xA;&quot;Anchor: Icon (259,51,19,19)&quot; +&#xA;&quot;Anchor: Cell (237,171,221,18)&quot; +&#xA;&quot;Anchor: Cell (237,189,221,21)&quot; +&#xA;&quot;Anchor: Cell (179,189,58,21)&quot; +&#xA;&quot;Anchor: Cell (179,171,58,18)&quot; +&#xA;&quot;Anchor: Cell (179,153,58,18)&quot; +&#xA;&quot;Anchor: Cell (103,153,76,18)&quot; +&#xA;&quot;Anchor: Cell (103,171,76,18)&quot;]" DesignTimeCacheId="cf72eaf3-c745-4a8b-b8ff-0b8db9cddca2" DesignTimeScaleFactor="1" DisplayName="CV Ingresa descripción del pago" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="25bfc6a7fd1e107d09989011d61696b4" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V2">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">

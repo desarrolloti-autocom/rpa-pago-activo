@@ -1,0 +1,42 @@
+10/09/2021,09:43:12,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+10/09/2021,09:44:04,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+13/09/2021,08:51:25,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+13/09/2021,08:54:08,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+13/09/2021,08:56:19,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+13/09/2021,08:57:31,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+13/09/2021,09:07:59,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+13/09/2021,09:10:20,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+13/09/2021,09:12:39,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+13/09/2021,09:15:12,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+13/09/2021,09:18:35,,Aviso Nose actualizo asiento,Error,Business rule exception.Aviso Nose actualizo asiento
+13/09/2021,11:43:07,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+13/09/2021,12:05:05,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+13/09/2021,01:04:39,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+13/09/2021,01:06:38,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+13/09/2021,01:08:10,,Error en el cajero.,Error,Business rule exception.Error en el cajero.
+13/09/2021,01:08:53,,Error en el cajero.,Error,Business rule exception.Error en el cajero.
+13/09/2021,03:16:49,,No coinciden Importes,Error,Business rule exception.No coinciden Importes
+14/09/2021,04:28:36,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+14/09/2021,04:39:35,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 1. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,04:43:52,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 2. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,04:48:15,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 3. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,04:52:38,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 0. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,04:56:04,,No coinciden Importes,Error,Business rule exception.No coinciden Importes
+14/09/2021,04:58:50,,No coinciden Importes,Error,Business rule exception.No coinciden Importes
+14/09/2021,05:07:02,,Error en el cajero.,Error,Business rule exception.Error en el cajero.
+14/09/2021,05:15:31,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+14/09/2021,05:19:02,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 1. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,05:23:28,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 2. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,05:27:50,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 3. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,05:32:06,,Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago,Failed,System exception. Retry: 0. Element not found at Source: Invoke Quiter_Datos_Adicionales_CV workflow: Invoke Quiter_Entregas_Cuentas workflow: CV Ingresa Forma de pago
+14/09/2021,05:33:40,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+14/09/2021,05:34:23,,Caja Cerrada,Error,Business rule exception.Caja Cerrada
+14/09/2021,05:38:11,,Error en el cajero.,Error,Business rule exception.Error en el cajero.
+14/09/2021,05:40:47,,No se encontro la referencia,Error,Business rule exception.No se encontro la referencia
+14/09/2021,05:44:09,,Aviso Nose actualizo asiento,Error,Business rule exception.Aviso Nose actualizo asiento
+14/09/2021,05:46:35,,No coinciden Importes,Error,Business rule exception.No coinciden Importes
+14/09/2021,05:49:08,,No coinciden Importes,Error,Business rule exception.No coinciden Importes
+14/09/2021,05:49:22,,Error en el cajero.,Error,Business rule exception.Error en el cajero.
+14/09/2021,05:49:59,,No se encontro el nombre de la caja,Error,Business rule exception.No se encontro el nombre de la caja
+14/09/2021,05:54:03,,Error en el cajero.,Error,Business rule exception.Error en el cajero.
+14/09/2021,06:26:19,,Error en el cajero.,Error,Business rule exception.Error en el cajero.

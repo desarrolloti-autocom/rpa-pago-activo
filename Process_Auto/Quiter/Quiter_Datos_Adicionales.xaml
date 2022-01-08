@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,3849</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>642,3947</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Quiter_Datos_Adicionales_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="62">
@@ -86,14 +86,14 @@
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="AUT.001.013 - Realizar pago&#xA;Modulo para agregar datos adicionales  para la gestion de Caja." DisplayName="Quiter_Datos_Adicionales" sap:VirtualizedContainerService.HintSize="476,3784" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="AUT.001.013 - Realizar pago&#xA;Modulo para agregar datos adicionales  para la gestion de Caja." DisplayName="Quiter_Datos_Adicionales" sap:VirtualizedContainerService.HintSize="476,3882" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="97f12c87-3dda-42d6-b36c-cc73838efa3c" DisplayName="CV Ventana gestion caja quiter" sap:VirtualizedContainerService.HintSize="434,2861" sap2010:WorkflowViewState.IdRef="CVScope_3" Version="V2">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="97f12c87-3dda-42d6-b36c-cc73838efa3c" DisplayName="CV Ventana gestion caja quiter" sap:VirtualizedContainerService.HintSize="434,2959" sap2010:WorkflowViewState.IdRef="CVScope_3" Version="V2">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -154,6 +154,7 @@
                 </ui:Target>
               </p:CvTypeIntoWithDescriptor.Target>
             </p:CvTypeIntoWithDescriptor>
+            <ui:Comment DisplayName="Comentario" sap:VirtualizedContainerService.HintSize="400,74" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Se  manejan puntos de anclaje para mejorar la presición del bot" />
             <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Cell (740,513,146,19)&quot; +&#xA;&quot;Anchor: Text 'Descripcion' (743,501,63,14)&quot; +&#xA;&quot;Anchor: Text 'F.P.' (707,501,23,12)&quot; +&#xA;&quot;Anchor: Cell (909,495,92,18)&quot; +&#xA;&quot;Anchor: Text 'Banco' (1006,501,34,13)&quot; +&#xA;&quot;Anchor: Text 'Ref.' (1078,501,21,12)&quot; +&#xA;&quot;Anchor: Text 'Importe' (733,476,43,14)&quot; +&#xA;&quot;Anchor: InputBox (782,473,91,20)&quot; +&#xA;&quot;Anchor: Text 'Saldo caja' (980,442,55,14)&quot; +&#xA;&quot;Anchor: Cell (704,513,36,19)&quot; +&#xA;&quot;Anchor: Cell (704,532,36,18)&quot; +&#xA;&quot;Anchor: Cell (704,550,36,18)&quot; +&#xA;&quot;Anchor: Text 'Total' (886,596,27,12)&quot; +&#xA;&quot;Anchor: Text 'Diferencia' (858,618,55,13)&quot; +&#xA;&quot;Anchor: Button (774,644,60,35)&quot; +&#xA;&quot;Anchor: Cell (740,495,146,18)&quot; +&#xA;&quot;Anchor: Cell (1067,513,88,19)&quot; +&#xA;&quot;Anchor: Cell (1067,495,88,18)&quot; +&#xA;&quot;Anchor: Cell (1155,495,68,18)&quot; +&#xA;&quot;Anchor: Cell (740,532,146,18)&quot; +&#xA;&quot;Anchor: Cell (740,550,146,18)&quot; +&#xA;&quot;Anchor: Cell (740,568,146,21)&quot;]" DesignTimeCacheId="97f12c87-3dda-42d6-b36c-cc73838efa3c" DesignTimeScaleFactor="1" DisplayName="CV Clic campo descripción" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_5" InformativeScreenshot="69d0c5016e0efb27cb2682cedbe28ba2" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V2">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
@@ -208,7 +209,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: Cell (863,495,89,17)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Importe' (888,482,41,13)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Banco' (955,482,33,11)&quot;]" DesignTimeCacheId="0a3a1b33-6689-470d-8724-b4f2175d756d" DesignTimeScaleFactor="1" DisplayName="Tipo de CV en - Celda" EmptyField="False" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_13" InformativeScreenshot="9b9e7e5e347570cac6299eab7cd168e1" Text="[&quot;[k(enter)]&quot;]" Version="V2">
+            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: Cell (863,495,89,17)&quot; +&#xA;&quot;Anchor: Text 'Importe' (888,482,41,13)&quot; +&#xA;&quot;Anchor: Text 'Banco' (955,482,33,11)&quot;]" DesignTimeCacheId="0a3a1b33-6689-470d-8724-b4f2175d756d" DesignTimeScaleFactor="1" DisplayName="Tipo de CV en - Celda" EmptyField="False" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_13" InformativeScreenshot="9b9e7e5e347570cac6299eab7cd168e1" Text="[&quot;[k(enter)]&quot;]" Version="V2">
               <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor>
                   <uc:CvDescriptor.Anchors>
@@ -402,7 +403,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:SendHotkey>
-            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1057,624,18,19)&quot; +&#xD;&#xA;&quot;Anchor: Button (1037,617,57,33)&quot;]" DesignTimeCacheId="97f12c87-3dda-42d6-b36c-cc73838efa3c" DesignTimeScaleFactor="1" DisplayName="Clic de CV - Icono" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_6" InformativeScreenshot="72009e747d5d8711ad9267da7090f2b6" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V2">
+            <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Icon (1057,624,18,19)&quot; +&#xA;&quot;Anchor: Button (1037,617,57,33)&quot;]" DesignTimeCacheId="97f12c87-3dda-42d6-b36c-cc73838efa3c" DesignTimeScaleFactor="1" DisplayName="Clic de CV - Icono" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_6" InformativeScreenshot="72009e747d5d8711ad9267da7090f2b6" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V2">
               <p:CvClickWithDescriptor.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>

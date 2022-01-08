@@ -9,7 +9,7 @@
     <x:Property Name="out_FlujoLinea" Type="OutArgument(x:Boolean)" />
     <x:Property Name="io_DtReporte" Type="InOutArgument(sd:DataTable)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1474,4702</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1060,4662</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="34">
@@ -92,10 +92,9 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Modulo para validar la selección de referencia" DisplayName="Quiter_Validacion_refrencias" sap:VirtualizedContainerService.HintSize="1070,4637" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Modulo para validar la selección de referencia" DisplayName="Quiter_Validacion_refrencias" sap:VirtualizedContainerService.HintSize="1070,4597" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Double" Name="ImporteTotalSheet" />
       <Variable x:TypeArguments="x:Double" Name="ImporteTotalQuiter" />
@@ -1534,9 +1533,9 @@
         </scg:List>
       </ui:FilterDataTable.SelectColumns>
     </ui:FilterDataTable>
-    <If Condition="[Dt_Validacion.Rows.Count &gt;= 9]" DisplayName="Si la tabla tiene mas de 9 filas " sap:VirtualizedContainerService.HintSize="1028,2072" sap2010:WorkflowViewState.IdRef="If_13">
+    <If Condition="[Dt_Validacion.Rows.Count &gt;= 9]" DisplayName="Si la tabla tiene mas de 9 filas " sap:VirtualizedContainerService.HintSize="1028,2032" sap2010:WorkflowViewState.IdRef="If_13">
       <If.Then>
-        <Sequence DisplayName="Busqueda de referencia." sap:VirtualizedContainerService.HintSize="514,1885" sap2010:WorkflowViewState.IdRef="Sequence_33">
+        <Sequence DisplayName="Busqueda de referencia." sap:VirtualizedContainerService.HintSize="514,1845" sap2010:WorkflowViewState.IdRef="Sequence_33">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2584,7 +2583,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </p:CVScope>
-          <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="783c3078-1723-41af-9c18-3bf65aa11e70" DisplayName="Error quiter en busqueda" sap:VirtualizedContainerService.HintSize="472,544" sap2010:WorkflowViewState.IdRef="CVScope_12" Version="V2">
+          <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="783c3078-1723-41af-9c18-3bf65aa11e70" DisplayName="Error quiter en busqueda" sap:VirtualizedContainerService.HintSize="472,504" sap2010:WorkflowViewState.IdRef="CVScope_12" Version="V2">
             <p:CVScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -2712,7 +2711,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <p:CvExtractDataTableWithDescriptor InRegion="{x:Null}" AddHeaders="True" Descriptor="[&quot;Target: Table (370,453,819,185)&quot; +&#xD;&#xA;&quot;Anchor: InputBox (233,597,84,20)&quot;]" DesignTimeCacheId="252c2673-b9a4-4a5e-adf8-1fbd3d04aea5" DesignTimeScaleFactor="1" DisplayName="Tabla de extracción de CV - Tabla" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvExtractDataTableWithDescriptor_2" IgnoreEmptyRows="False" InformativeScreenshot="0f0e5573b1ea43f7f9d77299c41ad15a" RefreshBefore="True" Result="[Dt_Refrencias]" Version="V2">
+            <p:CvExtractDataTableWithDescriptor InRegion="{x:Null}" AddHeaders="True" Descriptor="[&quot;Target: Table (370,453,819,185)&quot; +&#xA;&quot;Anchor: InputBox (233,597,84,20)&quot;]" DesignTimeCacheId="252c2673-b9a4-4a5e-adf8-1fbd3d04aea5" DesignTimeScaleFactor="1" DisplayName="Tabla de extracción de CV - Tabla" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvExtractDataTableWithDescriptor_2" IgnoreEmptyRows="False" InformativeScreenshot="0f0e5573b1ea43f7f9d77299c41ad15a" RefreshBefore="True" Result="[Dt_Refrencias]" Version="V2">
               <p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor>
                   <uc:CvDescriptor.Anchors>
@@ -3695,7 +3694,7 @@
     </ui:FilterDataTable>
     <If Condition="[Dt_Refrencias.Rows.Count &gt; 0]" DisplayName="Si la tabla refrencias contiene filas" sap:VirtualizedContainerService.HintSize="1028,1025" sap2010:WorkflowViewState.IdRef="If_8">
       <If.Then>
-        <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="5558f5d7-19d4-44ef-8d9d-cb4b6987bd7c" DisplayName="CV tabla referencias" sap:VirtualizedContainerService.HintSize="434,644" sap2010:WorkflowViewState.IdRef="CVScope_13" Version="V2">
+        <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="5558f5d7-19d4-44ef-8d9d-cb4b6987bd7c" DisplayName="CV tabla referencias" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="CVScope_13" Version="V2">
           <p:CVScope.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -3751,6 +3750,7 @@
                     </ui:Target>
                   </p:CvClickWithDescriptor.Target>
                 </p:CvClickWithDescriptor>
+                <ui:Comment DisplayName="Comentario" sap:VirtualizedContainerService.HintSize="400,74" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Se manejan los puntos de anclaje para la mejora de presición del bot" />
               </Sequence>
             </ActivityAction>
           </p:CVScope.Body>
@@ -3760,7 +3760,7 @@
           <p:CVScope.DesignTimeCacheContainer>
             <uc:CvCacheContainer>
               <uc:CvCacheContainer.Caches>
-                <scg:List x:TypeArguments="uc:CVCache" Capacity="2">
+                <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
                   <uc:CVCache DisplayName="Pantalla principal" Id="5558f5d7-19d4-44ef-8d9d-cb4b6987bd7c" InformativeScreenshot="196e0046d2c4538f2c50e4e1a5ad0270" LogicalPosition="0, 0" OcrText="Quiter Auto Web (quiter.autocom.mx - UV) - [Release 130 1414] [GESTION DE CAJA] = X Registro Edicion Ver Herramientas Ayuda - X Info indicadores de tiempo Direct C18 CAJA GENERAL CONTABILIDAI BQ... ... 1369 FANNY COVADONGA. Tipo Fecha Documento Concepto Cuenta Forma Descripcion Entrada Salida Ref. DP Ref.asiento Serie/nro Cajero ^ SI 22/12/21 Saldo inicial 1 EFECTIVO EN CAJA 0.00 24909120 1369 SI 22/12/21 Saldo inicial 10 CHEQUE TERCEROS 0.00 24909120 1369 SI 22/12/21 Saldo inicial 11 TEF BANCARIA TERCEROS Ba 104,555.94 24909120 1369 / DF 22/12/21 Diferencia de Caja 11 TEF BANCARIA TERCEROS te 104,555.94 24909121 1369 CF 22/12/21 Entrada cobro facturas C5 11 TEF BANCARIA TERCEROS 'e 13,099.17 24206680 / 24909122 RCACON 100914 1369 CF 22/12/21 Entrada cobro facturas C5 11 TEF BANCARIA TERCEROS Be 3,757.19 24206680 / 24909122 RCACON 100914 1369 CF 22/12/21 Entrada cobro facturas C5 11 TEF BANCARIA TERCEROS Be 154,304.10 24013982 / 24909124 RCACON 100915 1369 CF 22/12/21 Entrada cobro facturas C19 11 TEF BANCARIA TERCEROS te 209,179.97 17886216/.. 24909125 RCACON 100916 1369 v 484,896.37 104,555.94 Saldo caja 380,340.43 Documentos pendientes Seleccione el Referencia Documento Tipo Fecha Importe Fec. vto Pendiente Concepto M.Pa... ^ Cuenta documento a cobrar /.. 23248141 SRVCON6.. SO1 24/09/21 58.00 24/09/21 58.00 Venta servicio 336078 3N1CN8AEOLL840555 PHG001A.. PUE 77745 JOSE OCTAVIO FLORES ACEVES 23554976 30/09/21 -6,501.80 -121.80 Pago plataforma web 411111XXXXX 1111 Tarjeta Ba... Referencia Importe ^ 23524946 30/09/21 121.80 121.80 Pago plataforma web 411111X000X 1111 Tarjeta Ba... 24914222 SRVBQU5... SO1 23/12/21 162.40 23/12/21 162.40 Venta servicio 336078 3N1CN8AEOLL840555 PHG001A... PUE 24914221 SRVBQU5... SO1 23/12/21 58.00 23/12/21 58.00 Venta servicio 336078 3N1CN8AEOLL840555 PHG001A.. PUE Importe total v v X La cuenta personal tiene un importe de -100.00 en anticipos CRTCJ4CG proceso.rpa/CONTA5 MXN MXES" Position="0, 0" ScreenshotGuid="2450b92e-3e75-4b35-9aeb-b1065ad9e1de" ServerVersion="1">
                     <uc:CVCache.CvTables>
                       <x:Array Type="uc:CvTableInfo">

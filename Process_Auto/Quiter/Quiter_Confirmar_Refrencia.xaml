@@ -11,7 +11,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,3080</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>713,3292</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Quiter_Confirmar_Refrencia_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="62">
@@ -93,7 +93,7 @@
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="AUT.001.016 - Imprimir recibo de pago&#xA;Modulo que confirma la referencia, sale de gestion de cajasy agrega fila a tabla de reporte&#xA;" DisplayName="Quiter_Confirmar_Refrencia" sap:VirtualizedContainerService.HintSize="723,3015" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="AUT.001.016 - Imprimir recibo de pago&#xA;Modulo que confirma la referencia, sale de gestion de cajasy agrega fila a tabla de reporte&#xA;" DisplayName="Quiter_Confirmar_Refrencia" sap:VirtualizedContainerService.HintSize="723,3227" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="ExisteError" />
     </Sequence.Variables>
@@ -103,7 +103,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="0055dd9a-c99e-4759-a414-195daee4c7a5" DisplayName="CV Ventana Gestión caja Quiter" sap:VirtualizedContainerService.HintSize="681,504" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V2">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="C4G0mIxBmfrw7jrBeyaYiT5gZNL8nzUmdxZtM1/Z/CvpdvOwQQldU3wFkhQD5USE7RWIE5K0CNmJU8RxjLBfTw==" DesignTimeCacheId="0055dd9a-c99e-4759-a414-195daee4c7a5" DisplayName="CV Ventana Gestión caja Quiter" sap:VirtualizedContainerService.HintSize="681,602" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V2">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -152,6 +152,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
+            <ui:Comment DisplayName="Comentario" sap:VirtualizedContainerService.HintSize="400,74" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Se  manejan puntos de anclaje para mejorar la presición del bot" />
           </Sequence>
         </ActivityAction>
       </p:CVScope.Body>
@@ -627,5 +628,6 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
+    <ui:Comment DisplayName="Comentario" sap:VirtualizedContainerService.HintSize="681,74" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Se  manejan puntos de anclaje para mejorar la presición del bot" />
   </Sequence>
 </Activity>
