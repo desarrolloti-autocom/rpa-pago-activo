@@ -1,10 +1,19 @@
-# Título del Proyecto
+# Pago Activo
 
-_Acá va un párrafo que describa lo que es el proyecto_
+El Bot “AUT.001” se encarga de leer y extraer datos de un archivo en Excel de Google Drive, ingresa a Quiter con 
+el usuario y contraseña almacenados en el archivo la hoja “Settings“ del archivo config, una vez obtenidos los 
+datos de Drive ingresa a “Contabilidad>Gestión de caja”, posteriormente toma el dato del número de cajero y 
+número de caja a la que se va a ingresar , el Bot verifica si la caja está abierta o cerrada, si está abierta continua 
+con el proceso, de lo contrario envía un correo notificando que la caja está cerrada. 
+Una vez que el Bot identifico que la caja está abierta, selecciona “Crear nuevo apunte de caja” , ingresa el “Tipo y 
+número de cuenta”, elige las referencias que se van a procesar y valida que los montos obtenidos de drive 
+coincidan con los que tiene Quiter, si no coinciden, los guarda en el reporte de pagos y pasa a la siguiente 
+transacción, caso contrario ingresa el método de pago y accede a datos adicionales, coloca el método de pago y 
+graba la información, después , guarda los datos para imprimir el recibo de pago, extrae del recibo el nuevo 
+número de referencia que se asoció al pago y lo guarda en el reporte de pagos. 
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
