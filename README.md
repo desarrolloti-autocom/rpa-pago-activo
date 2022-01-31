@@ -20,79 +20,72 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Los pre-requisitos son los siguientes:
+Conexión a internet
+Credenciales y Conexión a VPN 
+Credenciales a sistema Quiter Web
+Tener acceso a G-suite de google para acceder al insumo sheet con las referencias de pago
+Equipo con windows 10
+Contar con licencia comunity edition de Automation Anywhere
+Tener privilegios de Bot creator
+Instalar Bot Agente en el equipo cliente
 
 ```
-Da un ejemplo
+Para instalar el bot Agente solo se necesita tener pribilegios de administrador para ligar el despositivo con el runner y control room.
 ```
 
 ### Recursos 📝
 
-* [Introduction](https://github.com/desarollotiautocom/wifilead/wiki)
-* [MaterialDashboard](https://github.com/desarollotiautocom/cumplimiento-riesgos/blob/master/MaterialDashboard.md)
-* [Releases](https://github.com/desarollotiautocom/wifilead/wiki)
-* [Examples](https://github.com/desarollotiautocom/wifilead/wiki)
-* [Wiki](https://github.com/desarollotiautocom/wifilead/wiki)
+* [Link de desarrollo Automation anywhere](https://community2.cloud-2.automationanywhere.digital/#/login?)
 
 ### Instalación 🔧
+Al ingresar al link de https://community2.cloud-2.automationanywhere.digital/#/login?
+El sistema pide descargar el bot agente, se descarga en automático
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Una vez descargado se da clic en el .exe y se da next hasta finalizar (Ejecutar como administrador)
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Convenciones de código ⏩
 
-Una serie de ejemplos paso a paso que te dice lo que como estructurar el código para el desarrollo de tu aplicativo, API o interfaz
-
-_Dí cómo será ese paso_
+Al ser una robotización no existen convenciones de código si no instrucciones dentro de cada componente
 
 ```
-Da un ejemplo
+Por ejemplo una bifurcación o IF se maneja a nivel componente no a nivel código usando ragg & drop
 ```
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+https://autocom.atlassian.net/wiki/spaces/AYF/pages/78905345/C+mo+ejecutar+la+tarea+programada+de+Automation+Anywhere+con+UIPATH+desde+linea+de+comandos.
+
 
 ### Analice las pruebas end-to-end 🔩
 
-_Explica que verifican estas pruebas y por qué_
+Las pruebas end-to-end fueron realizadas junto con el usuario y el equipo de QA para su validación, así como el seguimiento y feedback del dueño del proceso.
 
-```
-Da un ejemplo
-```
+se adjunta la liga
+https://docs.google.com/spreadsheets/d/1rEdNDkMeJdm84XabAObeush0LAREHXIv/edit#gid=1128209445
+
 
 ### Y las pruebas de estilo de codificación ⌨️
 
-_Explica que verifican estas pruebas y por qué_
+En la RPA no existen pruebas de codificación si no de buenas prácticas.
 
 ```
-Da un ejemplo
+Un ejemplo es el evitar el manejo de delays en procesos de cambios de pantallas usando bucles y bifurcaciones
 ```
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+Cómo tal el despliegue se realiza como el siguiente ejemplo
 
-## Construido con 🛠️
+https://autocom.atlassian.net/wiki/spaces/AYF/pages/78905345/C+mo+ejecutar+la+tarea+programada+de+Automation+Anywhere+con+UIPATH+desde+linea+de+comandos.
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+## Construido con Automation Anywhere🛠️
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+Los bots de automatización robótica de procesos tienen el mismo conjunto de habilidades que las personas… y algunas más. Piense en los bots de RPA como una fuerza de trabajo digital que puede interactuar con cualquier sistema o aplicación. Por ejemplo, los bots pueden copiar y pegar, extraer datos web, hacer cálculos, abrir y mover archivos, analizar correos electrónicos, iniciar sesión en programas, conectarse a API y extraer datos no estructurados. Y dado que los bots se pueden adaptar a cualquier interfaz o flujo de trabajo, no es necesario cambiar los sistemas, aplicaciones o procesos empresariales existentes a fin de realizar la automatización.
+
+* [Automation anywhere](https://www.automationanywhere.com/) - El framework web usado
+
 
 ## Contribuyendo 🖇️
 
@@ -108,20 +101,12 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+Bryan Gracia, Octavio Flores, Adrían Rojas.
 
-* **Fulanito Principal** - *Trabajo Inicial* - [fulanitoprincipal](https://github.com/tu)
-* **Fulanito Detail** - *Documentación* - [fulanitodetail](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (Comunity) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
